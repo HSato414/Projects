@@ -1,0 +1,159 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+	font-family: "Libre Baskerville", serif;
+  	font-weight: 100;
+  	font-style: normal;
+	color:#322016;
+}
+wrapper {
+    margin: auto;
+    width: 1400px;
+    display: block;
+}
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+	border-bottom-color: #322016;
+}
+.fujiikazelogo {
+    font-size: 45px;
+    display: inline-block;
+    color: #322016;	
+	margin-right:250px;
+}
+
+ul {
+    padding: 0;
+	text-align:left;
+}
+ul a li   {
+    display: inline-block;
+    padding: 20px 20px;
+    color: #322016;
+}
+ul a li:hover {
+    background-color: #EEE0D5;
+	border-bottom:solid;
+	border-bottom-color: #322016;
+	transition-duration: 1s;
+}
+h1 {
+    font-weight: 100;
+    padding-left: 30px;
+}
+main {
+    height: 700px;
+}
+.fkbkg{
+	position:absolute;
+}
+.Homeheading{
+    position: relative;
+    text-align: center;
+    top: 30px;
+	left:15px;
+    font-size: 150px;
+    color: white;
+	word-spacing:400px;
+}
+.Homeheading2{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: 120px;
+    color: white;
+    word-spacing: 30px;
+    text-shadow: 6px 0px 28px #252525;
+}
+.Viewinfo{
+	text-decoration: none;
+	position:relative;
+    color: #322016;
+    top:150px;
+    left: 45%;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 2px solid #EEE0D5;
+	background-color:#EEE0D5;
+    border-radius: 50px;
+}
+.Viewinfo:hover{
+	color:white;
+	border-color:#ECB150;
+	
+}
+.Archivetext{
+	color:#322016;
+	text-align:center;
+	margin-top:490px;
+}
+.Mainvid{
+	margin-top:50px;
+	margin-left:25%;
+	display:block;
+}
+.facebook{
+	width:40px;
+	margin-top:200px;
+	margin-left:38%;
+}
+.twitter{
+	width:40px;
+	margin-top:200px;
+	margin-left:30px;
+}
+.instagram{
+	width:40px;
+	margin-top:200px;
+	margin-left:30px;
+}
+.youtube{
+	width:40px;
+	margin-top:200px;
+	margin-left:30px;
+}
+.spotify{
+	width:40px;
+	margin-top:200px;
+	margin-left:30px;
+}
+.fktour{
+	position:absolute;
+}
+td {
+    border: 0;
+    color: #EEE0D5;
+    height: 2.5em;
+    width: 35.5%;
+}
+table {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin:0;
+    font-size: 17px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    border-style: none;
+    background-color: rgba(34,20,18,0.75);
+	padding: 90px 100px 50px 0px;
+}
+
+.homemain{
+	background-color:white;
+}
+.tourmain{
+	background-color:#EEE0D5;
+}
+.homefooter {
+    background-color: black;
+    padding: 30px;
+	margin-top:100px;
+    color: #EEE0D5;
+}
+.tourfooter{
+	background-color: black;
+    padding: 30px;
+    color: #EEE0D5;
+}
