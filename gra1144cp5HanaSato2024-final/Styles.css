@@ -214,16 +214,25 @@ table {
 }
 .media1{
 	display: block;
-	margin-left: 27%;
+	margin-left: 18%;
 }
 .media2{
 	display: inline-block;
-	padding: 20px;
-
+	padding-top: 20px;
+	padding-left:140px;
 }
 .media3{
 	display: inline-block;
-	
+	padding-left:15px;
+}
+.media4{
+	display: inline-block;
+	padding-top:20px;
+	padding-left:140px;
+}
+.media5{
+	display: inline-block;
+	padding-left:15px;
 }
 .homemain{
 	background-color:white;
