@@ -12,16 +12,17 @@ wrapper {
     display: block;
 }
 nav {
-    border-bottom-style: solid;
+    border-bottom:solid;
     border-bottom-width: thin;
 	border-bottom-color: #322016;
 }
+
 .fujiikazelogo {
     font-size: 45px;
     display: inline-block;
     color: #322016;	
 	margin-left: 30px;
-	margin-right:250px;
+	margin-right:300px;
 }
 
 ul {
@@ -37,11 +38,12 @@ ul a li:hover {
     background-color: #EEE0D5;
 	border-bottom:solid;
 	border-bottom-color: #322016;
-	transition-duration: 1s;
+	transition-duration: 0.5s;
 }
 h1 {
     font-weight: 100;
 	text-align:center;
+	
 }
 main {
     height: 700px;
@@ -52,16 +54,16 @@ main {
 .Homeheading{
     position: relative;
     text-align: center;
-    top: 30px;
-	left:15px;
+	top:20px;
+	left:30px;
     font-size: 150px;
     color: white;
-	word-spacing:400px;
+	word-spacing:390px;
 }
 .Homeheading2{
     position: relative;
     text-align: center;
-    top: 200px;
+    top:200px;
     font-size: 120px;
     color: white;
     word-spacing: 30px;
@@ -71,7 +73,7 @@ main {
 	text-decoration: none;
 	position:relative;
     color: #322016;
-    top:150px;
+	top:150px;
     left: 45%;
     padding: 10px 20px;
     font-size: 24px;
@@ -81,13 +83,13 @@ main {
 }
 .Viewinfo:hover{
 	color:white;
-	border-color:#ECB150;
+	border-color:white;
 	
 }
 .Vidtext{
 	color:#322016;
 	text-align:center;
-	margin-top:490px;
+	margin-top:480px;
 }
 .Mainvid{
 	margin-top:50px;
@@ -119,6 +121,14 @@ main {
 	margin-top:200px;
 	margin-left:30px;
 }
+.TourHeading{
+	padding-top:60px;
+	padding-bottom:20px;
+	border-top:solid;
+	border-top-width:thin;
+	border-top-color: #322016;
+	
+}
 .fktour{
 	position:absolute;
 }
@@ -126,7 +136,7 @@ td {
     border: 0;
     color: #EEE0D5;
     height: 2.5em;
-    width: 35.5%;
+    width: 20%;
 }
 table {
     width: 100%;
@@ -138,7 +148,21 @@ table {
     letter-spacing: 2px;
     border-style: none;
     background-color: rgba(34,20,18,0.75);
-	padding: 90px 100px 50px 0px;
+	padding: 90px 0px 45px 0px;
+}
+.buytickets{
+	text-decoration: none;
+	font-size:15px;
+	color: #EEE0D5;
+    border: 2px solid #EEE0D5;
+    border-radius: 50px;
+	padding:5px 10px;
+
+}
+.buytickets:hover{
+	background-color:#EEE0D5;
+	color:#322016;
+
 }
 .News1{
 	display:inline-block;
@@ -164,6 +188,9 @@ table {
 	background-color:#EEE0D5;
     border-radius: 50px;
 }
+.Readmore1:hover{
+	color:white;
+}
 .News2{
 	display:inline-block;
 	
@@ -186,10 +213,17 @@ table {
     text-align: center;
 }
 .media1{
-	margin:40px 0px 0px 30%;
+	display: block;
+	margin-left: 27%;
 }
 .media2{
-	margin:40px 0px 0px 30%;
+	display: inline-block;
+	padding: 20px;
+
+}
+.media3{
+	display: inline-block;
+	
 }
 .homemain{
 	background-color:white;
@@ -211,5 +245,5 @@ footer{
     color: #EEE0D5;
 }
 .mediafooter{
-	margin-top:200px;
+	margin-top:800px;
 }
