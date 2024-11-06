@@ -17,10 +17,10 @@ wrapper  {
 footer {
     display: block;
     padding-top: 30px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    margin-top: 849px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-top: 900px;
     text-align: center;
 }
 .Apparel {
@@ -28,21 +28,36 @@ footer {
 }
 div {
     position: absolute;
-	top: 0;
+	top: 20px;
 	left: 40px;
 }
 section {
     width: 50%;
     display: inline-block;
     margin-right: -4px;
-	margin-top:80px;
+	margin-top:90px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     vertical-align: top;
 }
 .UOLogo{
-	margin:20px 40px 0px 30px;	
+	margin:25px 40px 0px 30px;	
+}
+input[type=text] {
+	position:relative;
+	left:55%;
+    padding: 10px 40px 10px 10px;
+    border: thin solid;
+    font-size: 12px;
+}
+.searchbutton {
+  position:relative;
+  left: 52%;
+  top: 6px;
+  padding-top: 0px;
+  margin-right: 0px;
+  cursor: pointer;
 }
 nav {
 	border-bottom:solid;
@@ -52,13 +67,25 @@ nav {
 ul {
     padding: 0;
 	text-align:left;
+	display:inline-block;
 }
 li {
     display: inline-block;
-    padding: 20px 40px;
+    padding: 20px 43px;
     color: #322016;
 }
-	
+.heart{
+    position: relative;
+	left: 90px;
+	top:5px;
+    cursor: pointer;	
+}
+.shoppingbag{
+    position: relative;
+	top:9px;
+	left: 120px;
+    cursor: pointer;	
+}	
 button {
     width: 40px;
     height: 40px;
@@ -83,6 +110,21 @@ button:hover {
 }
 .red {
     background-color: #631E22;
+}
+.instagram{
+	margin-right:15px;	
+}
+.facebook{
+	margin-right:15px;	
+}
+.tiktok{
+	margin-right:15px;	
+}
+.pinterest{
+	margin-right:15px;	
+}
+.youtube{
+	margin-right:15px;	
 }
 </style>
 <script type="text/javascript">
@@ -120,8 +162,10 @@ function MM_showHideLayers() { //v9.0
 <body onLoad="MM_preloadImages('DressBackBlue.jpg','DressBackPurple.jpg','DressBackRed.jpg')">
 <wrapper>
   <header>
-	  <a href="index.html"><img class="UOLogo" src="UOLogo.gif" alt="" width="300" height=""></a>
-    <nav>
+    <a href="index.html"><img class="UOLogo" src="UOLogo.gif" alt="" width="300" height=""></a>
+    <input type="text" placeholder="Search" >
+    <img class="searchbutton" src="search-interface-symbol.png" width="20" height="" alt=""/>
+<nav>
       <ul>
         <li>New</li>
         <li>Women's</li>
@@ -132,14 +176,15 @@ function MM_showHideLayers() { //v9.0
         <li>Beauty + Wellness</li>
         <li>Sale</li>
       </ul>
-    </nav>
+    <img class="heart" src="heart.png" width="20" height="" alt=""/> 
+	<img class="shoppingbag" src="shopping-bag.png" width="30" height="" alt=""/> 
+</nav>
   </header>
   <main>
     <section class="Apparel">
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reddress','','DressBackRed.jpg',1)"><img src="DressFrontRed.jpg" alt="UO Bella Bow-Back Satin Mini Dress (Red)" width="600" height="899" id="reddress"></a></div>
 <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('purpledress','','DressBackPurple.jpg',1)"><img src="DressFrontPurple.jpg" alt="UO Bella Bow-Back Satin Mini Dress (Purple)" width="600" height="899" id="purpledress"></a></div>
-      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reddress','','DressBackRed.jpg',1)"><img src="DressFrontRed.jpg" alt="UO Bella Bow-Back Satin Mini Dress (Red)" width="600" height="899" id="reddress"></a></div>
-      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reddress','','DressBackRed.jpg',1)"><img src="DressFrontRed.jpg" alt="" width="600" height="899" id="reddress2"></a>
-      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bluedress','','DressBackBlue.jpg',1)"><img src="DressFrontBlue.jpg" alt="UO Bella Bow-Back Satin Mini Dress (Blue)" width="600" height="899" id="bluedress"></a></div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bluedress','','DressBackBlue.jpg',1)"><img src="DressFrontBlue.jpg" alt="UO Bella Bow-Back Satin Mini Dress (Blue)" width="600" height="899" id="bluedress"></a></div>
     </section>
     <section>
       <h1>UO Bella Bow-Back Satin Mini Dress</h1>
@@ -153,7 +198,14 @@ function MM_showHideLayers() { //v9.0
 		
     </section>
   </main>
-  <footer><p>&copy; 2024, Hana Sato. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+<footer>
+	<a href="https://www.instagram.com/urbanoutfitters?cm_sp=EXPANDED_FOOTER-_-SOCIAL-_-INSTAGRAM"><img class="instagram" src="instagram.png" width="30" height="" alt=""/></a>
+    <a href="https://www.facebook.com/urbanoutfitters?cm_sp=EXPANDED_FOOTER-_-SOCIAL-_-FACEBOOK"><img class="facebook" src="facebook.png" width="30" height="" alt=""/></a>
+    <a href="https://www.tiktok.com/@urbanoutfitters?"><img class="tiktok" src="tiktok.png" width="30" height="" alt=""/></a>
+    <a href="https://www.pinterest.com/urbanoutfitters/"><img class="pinterest" src="pinterest-logo.png" width="30" height="" alt=""/></a>
+    <a href="https://www.youtube.com/user/uotv"><img class="youtube" src="youtube.png" width="30" height="" alt=""/></a>
+    <a href="https://open.spotify.com/user/urbanoutfitters?cm_sp=EXPANDED_FOOTER-_-SOCIAL-_-SPOTIFY"><img class="spotify" src="spotify.png" width="30" height="" alt=""/></a>
+	<p>&copy; 2024, Hana Sato. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
 </wrapper>
 </body>
 </html>
