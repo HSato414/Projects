@@ -1,0 +1,449 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Urban Outfitters | Hana Sato, 2024</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+	font-family: "Roboto Flex", sans-serif;
+	font-weight:300;
+    padding: 0;
+    margin: 0;
+}
+wrapper  {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #FFFFFF;
+}
+footer {
+    display: block;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-top: 900px;
+    text-align: center;
+	border-top:solid;
+	border-width:thin;
+}
+.Apparel{
+	position:relative;
+}
+div {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    visibility: hidden;
+}
+.shopthelook{
+ 	display:block;
+	margin-top:600px;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+	margin-top:90px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.UOLogo{
+	margin:25px 40px 0px 30px;	
+}
+input[type=text] {
+	position:relative;
+	left:54%;
+    padding: 10px 40px 10px 10px;
+    border: thin solid;
+    font-size: 12px;
+}
+.searchbutton {
+  position:relative;
+  left: 51%;
+  top: 6px;
+  padding-top: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+nav {
+	border-bottom:solid;
+    border-bottom-width: thin;
+}
+ul {
+    padding: 0;
+	text-align:left;
+	display:inline-block;
+}
+li {
+    display: inline-block;
+    padding: 20px 43px;
+}
+li:hover {
+	color:rgba(130,130,130,1.00);
+	cursor:pointer;
+	transition-duration:0.2s;
+}
+.saleli{
+	color:red;	
+}
+.heart{
+    position: relative;
+	left: 85px;
+	top:5px;
+    cursor: pointer;	
+}
+.shoppingbag{
+    position: relative;
+	top:9px;
+	left: 115px;
+    cursor: pointer;	
+}	
+.DressName{
+	font-weight:400;
+	font-size:30px;
+}
+.ogprice{
+    text-decoration: line-through;	
+}
+.saleprice{
+	border-bottom:solid;
+	border-bottom-width: thin;
+	border-color:black;
+	padding-bottom: 30px;
+	font-size:20px;
+	font-weight:300;
+	color:red;
+}
+.colorh3{
+	padding-top:10px;	
+}
+.colorbuttons{
+	border:none;	
+}
+.sizebuttons{
+    display: inline-block;
+	padding: 15px 15px;
+	margin:5px;
+	background-color:white;
+    border: thin solid rgba(45,45,45,0.55);	
+}
+.sizebuttons:hover{
+    background-color:rgba(210,210,210,1.00);
+	cursor: pointer;
+	transition-duration:0.2s;
+	margin:5px;
+	color:rgba(130,130,130,1.00);
+}
+.sizebuttons:focus{
+	cursor: pointer;
+	transition:none;
+	margin:5px;
+	border:medium solid black;
+}
+.blue {
+    background-color: #29355B;
+	width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    border: thin solid white;
+}
+.blue:hover {
+    border: medium solid black;
+	cursor: pointer;
+} 
+.blue:focus {
+    border: medium solid black;
+	cursor: pointer;
+} 
+.purple {
+    background-color: #4C2748;
+	width: 40px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 25px;
+    display: inline-block;
+    border: thin solid white;
+}
+.purple:hover {
+    border: medium solid black;
+	cursor: pointer;
+}
+.purple:focus {
+    border: medium solid black;
+	cursor: pointer;
+}
+.red {
+    background-color: #631E22;
+	width: 40px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 25px;
+    display: inline-block;
+    border: thin solid white;
+}
+.red:hover {
+    border: medium solid black;
+	cursor: pointer;
+}
+.red:focus {
+    border: medium solid black;
+	cursor: pointer;
+}	
+.addtobag{
+	border:solid;
+	border-width:thin;
+	text-align:center;
+	margin-top:50px;
+	padding:20px;
+}
+.addtobag:hover{
+	background-color:rgba(0,0,0,1.00);
+	color:white;
+	cursor:pointer;
+	transition-duration:0.2s;
+	
+}
+.detailsh3{
+	margin-top:30px;
+	font-size:20px;
+}
+.featureslist{
+	position: relative;
+}
+.featuresli{
+    position: relative;
+    display: block;
+    line-height: normal;
+	margin: -30px 0;
+}
+.featuresli:hover{
+    Text-Decoration: None;
+	color:black;
+	cursor:default;
+}
+.More{ 
+	display: block;
+	width: 900px;
+	height: 80px;
+	margin-top:-450px;
+}
+.shopthelook{
+	margin-left:45px;
+	margin-bottom:-50px;
+	font-weight:300;
+}
+.img1{
+	position: relative;
+	left: 30px;		
+}
+.img1:hover{
+	cursor:pointer;	
+	opacity: 0.70;
+}
+.imgtext1{
+	position: relative;
+	right:78px;
+	text-align:center;
+	font-size:15px;	
+}
+.img2{
+	position: relative;
+	right:75px;
+}
+.img2:hover{
+	cursor:pointer;
+	opacity: 0.70;
+}
+.imgtext2{
+	position: relative;
+	right:80px;
+	text-align:center;
+	font-size:15px;	
+}
+.img3{
+	position: relative;
+	left: 725px;
+	bottom: 610px;
+}
+.img3:hover{
+	cursor:pointer;	
+	opacity: 0.70;
+}
+.imgtext3{
+	position: relative;
+	right:80px;
+	text-align:center;
+	font-size:15px;	
+}
+.img4{
+	position: relative;
+	left: 630px;
+	bottom: 610px;
+}
+.img4:hover{
+	cursor:pointer;	
+	opacity: 0.70;
+}
+.imgtext4{
+	position: relative;
+	right:80px;
+	text-align:center;
+	font-size:15px;	
+}
+.instagram{
+	margin-right:15px;	
+}
+.facebook{
+	margin-right:15px;	
+}
+.tiktok{
+	margin-right:15px;	
+}
+.pinterest{
+	margin-right:15px;	
+}
+.youtube{
+	margin-right:15px;	
+}
+.featuresli {
+    text-align: left;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('DressBackBlue.jpg','DressBackPurple.jpg','DressBackRed.jpg')">
+<wrapper>
+  <header>
+<nav>
+	<a href="index.html"><img class="UOLogo" src="UOLogo.gif" alt="" width="300" height=""></a>
+    <input type="text" placeholder="Search" >
+    <img class="searchbutton" src="search-interface-symbol.png" width="20" height="" alt=""/>
+      <ul>
+        <li>New</li>
+        <li>Women's</li>
+        <li>Men's</li>
+        <li>Shoes</li>
+        <li>Accessories</li>
+        <li>Music</li>
+        <li>Beauty + Wellness</li>
+        <li class="saleli">Sale</li>
+      </ul>
+    <img class="heart" src="heart.png" width="20" height="" alt=""/> 
+	<img class="shoppingbag" src="shopping-bag.png" width="30" height="" alt=""/> 
+</nav>
+  </header>
+  <div></div>
+  <main>
+    <section class="Apparel">
+<div class="dress1" style="visibility: visible;"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bluedress','','DressBackBlue.jpg',1)"><img src="DressFrontBlue.jpg" alt="UO Bella Bow-Back Satin Mini Dress" width="600" height="899" id="bluedress"></a></div>
+		
+<div class="dress2"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('purpledress','','DressBackPurple.jpg',1)"><img src="DressFrontPurple.jpg" alt="UO Bella Bow-Back Satin Mini Dress" width="600" height="899" id="purpledress"></a></div>
+		
+<div class="dress3"> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('reddress','','DressBackRed.jpg',1)"><img src="DressFrontRed.jpg" alt="UO Bella Bow-Back Satin Mini Dress" width="600" height="899" id="reddress"></a></div>
+    </section>
+    <section>
+      <h1 class="DressName">UO Bella Bow-Back Satin Mini Dress</h1>
+		<p class="ogprice">$59.00</p> 
+		<p class="saleprice">$41.30 Limited Time Only</p>
+      <h3 class="colorh3">Color</h3>
+      <nav class="colorbuttons">
+        <button class="blue" onClick="MM_showHideLayers('bluedress','','show','purpledress','','hide','reddress','','hide')"></button>
+        <button class="purple" onClick="MM_showHideLayers('bluedress','','hide','purpledress','','show','reddress','','hide')"></button>
+        <button class="red" onClick="MM_showHideLayers('bluedress','','hide','purpledress','','hide','reddress','','show')"></button>
+      </nav>
+      <h3>Size</h3>
+      <button class="sizebuttons">XS</button>
+      <button class="sizebuttons">S</button>
+      <button class="sizebuttons">M</button>
+      <button class="sizebuttons">L</button>
+      <button class="sizebuttons">XL</button>
+      <h3 class="addtobag">Add to Bag</h3>
+      <h3 class="detailsh3">Details</h3>
+      <p>Satin mini dress from UO with an adjustable tie at the back. Cut in a slim-fit with a light dip at the neckline, a seamed empire waist and a mini skirt with a subtle a-line silhouette. UO exclusive.</p>
+	  <h4 class="Features">Features</h4>
+	  <ul class="featureslist">
+        <li class="featuresli"> - UO Bella bow-back satin mini dress</li>
+        <li class="featuresli">- Satin slip dress</li>
+        <li class="featuresli">- Light satin with sheen</li>
+        <li class="featuresli">- Sweetheart neckline with spaghetti straps</li>
+        <li class="featuresli">- Fitted bodice with tailored seams</li>
+        <li class="featuresli">- Self-tie bow detail at back</li>
+        <li class="featuresli">- Empire waist a-line fit</li>
+        <li class="featuresli">- Mini length</li>
+		<li class="featuresli">- Adjustable spaghetti straps</li>
+		<li class="featuresli">- Zip closure</li>
+      </ul>
+		<h4 class="care">Content + Care</h4>
+		<li class="featuresli"> - 97% Polyester, 3% spandex</li>
+        <li class="featuresli">- Machine wash</li>
+        <li class="featuresli">- Imported</li> 
+    </section>
+    <section class="More">
+	  <h3 class="shopthelook">Shop the Look</h3>
+		<section  class="img1">
+	  <img src="earrings.jpg" width="300">
+	  <p class="imgtext1">14k Gold &amp; White Gold Plated<br> Rhinestone Hoop Earring</p>
+		</section>
+		<section class="img2">
+	  <img src="https://images.urbndata.com/is/image/UrbanOutfitters/87221271_007_b?$medium$&qlt=80&fit=constrain" width="300">
+	  <p class="imgtext2">Margot Delicate Pearl Layering Necklace</p>
+		 </section>
+	  <section class="img3">
+	  <img src="https://images.urbndata.com/is/image/UrbanOutfitters/93428480_007_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=720" width="300">
+	  <p class="imgtext3">Essential Rhinestone Tennis Necklace</p>
+		 </section>
+		<section class="img4">
+	  <img src="https://images.urbndata.com/is/image/UrbanOutfitters/86594702_027_b?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=720" width="300">
+	  <p class="imgtext4">Steve Madden Exotica High Heel</p>
+		</section>
+	</section>
+  </main>
+<footer>
+	<a href="https://www.instagram.com/urbanoutfitters?cm_sp=EXPANDED_FOOTER-_-SOCIAL-_-INSTAGRAM"><img class="instagram" src="instagram.png" width="30" height="" alt=""/></a>
+    <a href="https://www.facebook.com/urbanoutfitters?cm_sp=EXPANDED_FOOTER-_-SOCIAL-_-FACEBOOK"><img class="facebook" src="facebook.png" width="30" height="" alt=""/></a>
+    <a href="https://www.tiktok.com/@urbanoutfitters?"><img class="tiktok" src="tiktok.png" width="30" height="" alt=""/></a>
+    <a href="https://www.pinterest.com/urbanoutfitters/"><img class="pinterest" src="pinterest-logo.png" width="30" height="" alt=""/></a>
+    <a href="https://www.youtube.com/user/uotv"><img class="youtube" src="youtube.png" width="30" height="" alt=""/></a>
+    <a href="https://open.spotify.com/user/urbanoutfitters?cm_sp=EXPANDED_FOOTER-_-SOCIAL-_-SPOTIFY"><img class="spotify" src="spotify.png" width="30" height="" alt=""/></a>
+	<p>&copy; 2024, Hana Sato. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
