@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IACE Travel | Hana Sato 2024</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 960px)" href="css/main.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+	font-family: "Host Grotesk", sans-serif;
+	font-weight:400;
+    margin: 0;
+    background-color: #F3F2EB;
+	background-image:url("japan3.jpg");
+	background-size:cover;
+    background-position: center 0%;
+	background-attachment:fixed;
+}
+header {
+    height: 100px;
+}
+nav{
+	display: inline-block;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:30px;
+	overflow: hidden;
+    border-radius: 50px; 
+	background-color:white;
+}
+.logo{
+	position:relative;
+	top:9px;
+	display:inline-block;
+	margin-left:20px;
+	margin-right:120px;
+}
+nav ul {
+	display: inline-block;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+    padding: 10px 20px;
+	border-radius:50px;
+}
+nav ul li:hover {
+	background-color:#384385;
+	border-radius:50px;
+	color:#F3F2EB;
+	transition-duration:0.3s;
+	cursor:pointer;
+}
+.language{
+    width: 122px;
+    text-align: left;
+	padding:10px;
+	margin-left:180px;
+	
+}
+.signin{
+	margin-left:10px;
+    color: #F3F2EB;
+    padding: 10px 20px;
+    border: 2px solid #2E2E2E;
+	background-color:#2E2E2E;
+    border-radius: 50px;
+}
+.signin:hover{
+	background-color:#384385;
+	border-color:#384385;
+	color:#F3F2EB;
+	transition-duration:0.3s;
+	cursor:pointer;
+}
+.mainimg{
+	margin-left:-50px;
+	position:relative;
+	bottom:20px;
+}
+wrapper {
+    width: 1300px;
+    margin: auto;
+    display: block;
+}
+footer {
+	font-size:14px;
+    background-color:
+	rgba(0,0,0,0.50);
+	margin-top:200px;
+    bottom: 0px;
+    padding: 15px 50px;
+    color: #f3f2eb;
+}
+#Tabs1 ul li img {
+    width: auto;
+    margin: 8px;
+    height: 30px;
+}
+#Tabs1 ul li {
+	font-family: "Host Grotesk", sans-serif;
+	font-size:16px;
+    padding: 5px;
+	font-weight:400;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+	background-color: #F3F2EB;
+}
+#Tabs1 ul {
+    background-color:transparent;
+    border: none;
+    background-image: none;
+}
+#Tabs1 {
+	font-family: "Host Grotesk", sans-serif;
+    background-color: transparent;
+    border: none;
+    background-image: none;
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    background-color: #F3F2EB;
+	border-radius:20px;
+}
+input ,select{
+    border: thin solid black;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.date  ,select,.submit{
+    width: 45%;
+    margin-left: 0px;
+    margin-right: 23px;
+}
+.submit {
+    background-color: #384385;
+	border-color:#384385;
+    color: rgba(243,242,235,1.00);
+    text-align: center;
+	padding-right:50px;
+}
+.submit:hover {
+    background-color: #2E2E2E;
+	border-color:#2E2E2E;
+    text-align: center;
+	transition-duration:0.2s;
+	cursor:pointer;
+}
+.roundtrip {
+	text-decoration: none;
+	margin-bottom:20px;
+	margin-right:20px;
+    color: #f3f2eb;
+    padding: 10px 20px;
+    border: 2px solid #2E2E2E;
+	background-color:#2E2E2E;
+    border-radius: 50px;
+}
+.roundtrip:hover {
+	background-color:#384385;
+	border-color:#384385;
+	transition-duration:0.2s;
+	cursor:pointer;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<wrapper>
+	<nav>
+	<img class="logo" src="IACElogo.png" alt="" width="300" height="">
+	<ul>
+      <li>Discover</li><li>Trips</li><li>Review</li><li>Contact Us</li>
+	  <select class="language">
+  <option value="0">English</option>
+  <option value="1">Japanese</option>
+</select>
+	  <li class="signin">Sign In</li>
+    </ul>
+	</nav>
+<div id="Tabs1">
+  <ul>
+    <li> <a href="#tabs-1"><img src="plane.png" alt="" width="400" height=""><br>
+    Flights</a></li>
+    <li> <a href="#tabs-2"><img src="hotel.png" alt="" width="400" height=""><br>
+    Hotels</a></li>
+    <li> <a href="#tabs-3"><img src="sports-car.png" alt="" width="400" height=""><br>
+    Car Rentals</a></li>
+    <li> <a href="#tabs-4"><img src="cruise.png" alt="" width="400" height=""><br>
+    Cruises</a></li>
+    <li> <a href="#tabs-5"><img src="camera.png" alt="" width="400" height=""><br>
+    Activities</a></li>
+  </ul>
+  <div id="tabs-1">
+<button class="roundtrip">Round Trip</button>
+<button class="roundtrip">One way</button><br>
+    <input name="textfield" type="text" id="textfield" placeholder="Where to?">
+<input name="date" type="date" class="date">
+<input name="date2" type="date" class="date">
+<select>
+  <option value="0">Number of Travelers</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5+">5+</option>
+</select>
+<input type="submit" class="submit" value="Find Your Flight">
+  </div>
+  <div id="tabs-2">
+    <p>Content 2</p>
+  </div>
+  <div id="tabs-3">
+    <p>Content 3</p>
+  </div>
+  <div id="tabs-4">
+    <p>Content 4</p>
+  </div>
+  <div id="tabs-5">
+    <p>Content 5</p>
+  </div>
+</div>
+</wrapper>
+<footer><p>&copy; 2024, Hana Sato. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
