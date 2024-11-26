@@ -91,23 +91,27 @@ wrapper {
     display: block;
 }
 footer {
+	width:95%;
 	font-size:14px;
     background-color:
 	rgba(0,0,0,0.50);
-	margin-top:200px;
-    bottom: 0px;
-    padding: 15px 50px;
+	text-align:center;
+    padding: 10px 50px;
     color: #f3f2eb;
+	bottom:0px;
+	position:fixed;
+	display:block;
 }
 #Tabs1 ul li img {
     width: auto;
     margin: 8px;
-    height: 30px;
+    padding: 0px 5px;
+    height: 26px;
 }
 #Tabs1 ul li {
     font-family: "Host Grotesk", sans-serif;
     font-size: 16px;
-    padding: 0px 10px;
+    padding: 0px 0px;
     font-weight: 400;
     text-align: center;
     margin-top: 10px;
@@ -129,18 +133,19 @@ footer {
     background-color: transparent;
     border: none;
     background-image: none;
-	width:80%;
-	margin-left:120px;
+	width:65%;
+	margin-left:220px;
     border-radius: 20px;
 
 }
 #tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
-    background-color: rgba(247,243,239,0.95);
+    background-color: rgba(247,243,239,0.93);
     border-radius: 20px;
 }
 input{
     border: thin solid black;
 	width:80%;
+	margin-top:-20px;
     border-radius: 10px;
     padding-top: 15px;
     padding-right: 15px;
@@ -158,31 +163,30 @@ input{
     padding-right: 15px;
     padding-left: 30px;
     padding-bottom: 15px;
-    width: 15%;
+    width: 18%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	margin-right:20px;
+	margin-right:20px;
 	position:relative;
-	bottom:60px;
+	bottom:75px;
 }
 .date{
     width: 45%;
-    margin-left: 0px;
-    margin-right: 23px;
+    margin-right: 34px;
 	position:relative;
-	bottom:100px;
+	bottom:95px;
 }
 .submit {
     background-color: #384385;
+	width:100%;
 	border-color:#384385;
     color: rgba(243,242,235,1.00);
     text-align: center;
 	padding-right:50px;
-	margin-top:30px;
-	width:100%;
 	position:relative;
-	bottom:50px;
+	bottom:35px;
 }
 .submit:hover {
     background-color: #2E2E2E;
@@ -193,7 +197,7 @@ input{
 }
 .roundtrip {
 	text-decoration: none;
-	margin-top:30px;
+	margin-top:20px;
 	margin-right:20px;
     color: #f3f2eb;
     padding: 10px 20px;
@@ -214,21 +218,21 @@ input{
 }
 .departure{
 	width:56%;
+	position:relative;
+	bottom:20px;
 }
 .departingtext{
-	margin-bottom:13px;
+	margin-bottom:15px;
 	font-size: 17px;
 	padding-top: 20px;
 	padding-left: 10px;	
 }
 .destination{
-	margin-right: 10px;
-	margin-left: 18px;
 	display: inline-block;
 	width:56%;
 	position:relative;
-	left:46%;
-	bottom:132px;
+	left:50%;
+	bottom:135px;
 }
 .destinationtext{
 	font-size: 17px;
@@ -250,6 +254,195 @@ input{
 }
 #Tabs1 ul li:focus  {
     background-color: rgba(255,255,255,1.00);
+}
+#tabs-2{
+	padding-bottom:25px;	
+}
+.hoteldestinationtext{
+	font-size: 17px;
+}
+.hoteldestination{
+	width:125%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	margin-left:-50px;
+}
+.date2{
+	width:100%;
+    margin-left: 0px;
+    margin-right: 23px;
+
+}
+.checkin{
+	display:inline-block;
+	width: 45%;
+	margin-right:20px;
+}
+.checkout{
+	display:inline-block;
+	width: 45%;
+}
+.guest1,.guest2,.rooms{
+	border: thin solid black;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    width: 18%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-right:20px;
+	margin-top:20px;
+	}
+.submit2{
+	background-color: #384385;
+	border-color:#384385;
+    color: rgba(243,242,235,1.00);
+    text-align: center;
+	padding-right:50px;
+	margin-top:20px;
+	width:100%;
+}
+#tabs-3{
+	padding-bottom:25px;
+}
+.pickuplocation{
+	width:125%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	margin-left:-50px;
+}
+.date3{
+	width:100%;
+    margin-left: 0px;
+    margin-right: 23px;
+}
+.pickupdate{
+	display:inline-block;
+	width: 45%;
+	margin-right:20px;
+}
+.pickuptime{
+	display:inline-block;
+	width: 45%;
+}
+.dropoffdate{
+	display:inline-block;
+	width: 45%;
+	margin-right:20px;
+}
+.dropofftime{
+	display:inline-block;
+	width: 45%;
+}
+.submit3{
+	background-color: #384385;
+	border-color:#384385;
+    color: rgba(243,242,235,1.00);
+    text-align: center;
+	padding-right:50px;
+	margin-top:20px;
+	width:100%;
+}
+#tabs-4{
+	padding-bottom:25px; 
+}
+.cruisegoingto{
+	width:125%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	margin-left:-50px;	
+}
+.cruisedate{
+	width:100%;
+    margin-left: 0px;
+    margin-right: 23px;
+}
+.cruisedeparturedate{
+	display:inline-block;
+	width: 45%;
+	margin-right:20px;
+}
+.cruisedestinationdate{
+	display:inline-block;
+	width: 45%;
+}
+.cruiseadult,.cruisechildren{
+	border: thin solid black;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    width: 18%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-right:20px;
+	margin-top:20px;
+	}
+.submit4{
+	background-color: #384385;
+	border-color:#384385;
+    color: rgba(243,242,235,1.00);
+    text-align: center;
+	padding-right:50px;
+	margin-top:20px;
+	width:100%;
+}
+#tabs-5{
+	padding-bottom:25px; 
+}
+.activity{
+	width:125%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	margin-left:-50px;
+}
+.activitydate{
+	width:100%;
+    margin-left: 0px;
+    margin-right: 23px;
+}
+.activitydate1{
+	display:inline-block;
+	width: 45%;
+	margin-right:20px;
+}
+.activitydate2{
+	display:inline-block;
+	width: 45%;
+}
+.submit5{
+	background-color: #384385;
+	border-color:#384385;
+    color: rgba(243,242,235,1.00);
+    text-align: center;
+	padding-right:50px;
+	margin-top:20px;
+	width:100%;
 }
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
@@ -319,17 +512,19 @@ input{
   </div>
 	
   <div id="tabs-2">
-	<section class="departure">
-	 <p class="departingtext">Departure</p>
-    <input name="textfield3" type="text" id="textfield3" placeholder="City or Airport">
+	<section class="hoteldestination">
+	<p class="hoteldestinationtext">Destination</p>
+    <input name="textfield3" type="text" id="textfield3" placeholder="City, Hotel, Airport, Address, or Landmark">
 	  </section>
-	<section class="destination">
-	 <p class="destinationtext">Destination</p>
-	<input name="textfield4" type="text" id="textfield4" placeholder="City or Airport">
-	</section>
-<input name="date" type="date" class="date">
-<input name="date2" type="date" class="date">
-<select class="travelers">
+<section class="checkin">
+  <p>Check-in</p>
+<input name="date2" type="date" class="date2">
+</section>
+<section class="checkout">
+<p>Check-out</p>
+<input name="date2" type="date" class="date2">
+</section>
+<select class="guest1">
   <option value="0">Adults</option>
   <option value="1">1</option>
   <option value="2">2</option>
@@ -337,7 +532,7 @@ input{
   <option value="4">4</option>
   <option value="5+">5+</option>
 </select>
-<select class="travelers">
+<select class="guest2">
   <option value="0">Children</option>
   <option value="0">0</option>
   <option value="1">1</option>
@@ -346,52 +541,56 @@ input{
   <option value="4">4</option>
   <option value="5+">5+</option>
 </select>
-<input type="submit" class="submit" value="Find Your Flight">
+<select class="rooms">
+  <option value="0">Rooms</option>
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5+">5+</option>
+</select>
+<input type="submit" class="submit2" value="Select Your Stay">
   </div>
 	
   <div id="tabs-3">
-	<section class="departure">
-	 <p class="departingtext">Departure</p>
-    <input name="textfield5" type="text" id="textfield5" placeholder="City or Airport">
+	<section class="pickuplocation">
+	  <p class="pickuplocationtext">Pick-up Location</p>
+	  <input name="textfield4" type="text" id="textfield4" placeholder="City or Airport">
 	  </section>
-	<section class="destination">
-	 <p class="destinationtext">Destination</p>
-	<input name="textfield6" type="text" id="textfield6" placeholder="City or Airport">
+	<section class="pickupdate">
+	 <p class="pickupdatetext">Pick-up Date</p>
+    <input name="date3" type="date" class="date3">
 	</section>
-<input name="date" type="date" class="date">
-<input name="date2" type="date" class="date">
-<select class="travelers">
-  <option value="0">Adults</option>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5+">5+</option>
-</select>
-<select class="travelers">
-  <option value="0">Children</option>
-  <option value="0">0</option>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5+">5+</option>
-</select>
-<input type="submit" class="submit" value="Find Your Flight">
+	<section class="pickuptime">
+	 <p class="pickuptimetext">Pick-up Time</p>
+	<input name="date3" type="time" class="date3">
+	</section>
+	<section class="dropoffdate">
+	 <p class="dropoffdatetext">Drop-off Date</p>
+	<input name="date3" type="date" class="date3">
+	</section>
+	<section class="dropofftime">
+	 <p class="dropofftimetext">Drop-off Time</p>
+	<input name="date3" type="time" class="date3">
+	</section>
+<input type="submit" class="submit3" value="Find Your Car">
   </div>
 	
   <div id="tabs-4">
-	<section class="departure">
-	 <p class="departingtext">Departure</p>
-    <input name="textfield7" type="text" id="textfield7" placeholder="City or Airport">
+	<section class="cruisegoingto">
+	 <p class="cruisetext">Going to</p>
+    <input name="textfield7" type="text" id="textfield7" placeholder="Destination">
 	  </section>
-	<section class="destination">
-	 <p class="destinationtext">Destination</p>
-	<input name="textfield8" type="text" id="textfield8" placeholder="City or Airport">
-	</section>
-<input name="date" type="date" class="date">
-<input name="date2" type="date" class="date">
-<select class="travelers">
+<section class="cruisedeparturedate">
+<p class="cruisedeparturetext">Departing As Early As</p>
+<input name="date" type="date" class="cruisedate">
+</section>
+<section class="cruisedestinationdate">
+<p class="cruisedestinationtext">Departing As Late As</p>
+<input name="date" type="date" class="cruisedate">
+ </section>
+<select class="cruiseadult">
   <option value="0">Adults</option>
   <option value="1">1</option>
   <option value="2">2</option>
@@ -399,7 +598,7 @@ input{
   <option value="4">4</option>
   <option value="5+">5+</option>
 </select>
-<select class="travelers">
+<select class="cruisechildren">
   <option value="0">Children</option>
   <option value="0">0</option>
   <option value="1">1</option>
@@ -408,43 +607,29 @@ input{
   <option value="4">4</option>
   <option value="5+">5+</option>
 </select>
-<input type="submit" class="submit" value="Find Your Flight">
+<input type="submit" class="submit4" value="Find Your Cruise">
   </div>
 	
   <div id="tabs-5">
-	<section class="departure">
-	 <p class="departingtext">Departure</p>
-    <input name="textfield9" type="text" id="textfield9" placeholder="City or Airport">
+	<section class="activity">
+	<p class="activitytext">Activity</p>
+    <input name="textfield7" type="text" class="activitytext" placeholder="Attraction, Activity, or Destination">
 	  </section>
-	<section class="destination">
-	 <p class="destinationtext">Destination</p>
-	<input name="textfield10" type="text" id="textfield10" placeholder="City or Airport">
-	</section>
-<input name="date" type="date" class="date">
-<input name="date2" type="date" class="date">
-<select class="travelers">
-  <option value="0">Adults</option>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5+">5+</option>
-</select>
-<select class="travelers">
-  <option value="0">Children</option>
-  <option value="0">0</option>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5+">5+</option>
-</select>
-<input type="submit" class="submit" value="Find Your Flight">
+<section class="activitydate1">
+<p class="activitydatetext1">From</p>
+<input name="date" type="date" class="activitydate">
+</section>
+<section class="activitydate2">
+<p class="activitydatetext2">To</p>
+<input name="date2" type="date" class="activitydate">
+</section>
+<input type="submit" class="submit5" value="Search">
   </div>
 	
 </div>
 </wrapper>
 <footer><p>&copy; 2024, Hana Sato. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+
 <script type="text/javascript">
 $(function() {
 	$( "#Tabs1" ).tabs(); 
