@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bear Dress Up | Hana Sato 2025</title>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style type="text/css">
+body{
+	margin:0;
+	background-color: #FAD1D8;
+	text-align: center;
+	}
+wrapper {
+	background-color: #FAD1D8;
+    width: 780px;
+    height: 680px;
+    display: block;
+    margin: auto;
+}
+footer {
+    font-size: 16px;
+    padding-top:50px;
+	padding-bottom:20px;
+	text-align:left;
+    font-family: sans-serif;
+}
+div {
+	background-color:#FFFCF8;
+	display:inline-block;
+	margin:10px;
+	box-sizing:border-box;
+	}
+#div1 {
+    background-image: url("korilakkuma.png");
+    background-repeat: no-repeat;
+    height: 540px;
+    width: 500px;
+	float:left;
+}
+#div2, #div3, #div4, #div5 {
+    width: 110px;
+    height: 120px;
+	padding-right:5px;
+	padding-top:5px;
+}
+#div2 img, #div3 img, #div4 img, #div5 img {
+    width: 100%;
+    height: auto;
+}
+p {
+	font-size:18px;
+	padding-bottom:20px;
+}
+</style>
+</head>
+<body>
+<h1>&nbsp;&nbsp;</h1>
+<p>Drag and drop the accessories onto Korilakkuma! </p>
+<wrapper>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="kcatcostume.png" draggable="true" ondragstart="drag(event)" id="drag2" width="450" height="420"></div>
+  <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="kbow.png" draggable="true" ondragstart="drag(event)" id="drag3" width="450" height="420"> </div>
+  <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="kcatcostume.png" draggable="true" ondragstart="drag(event)" id="drag4" width="450" height="420"></div>
+  <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="kcatcostume.png" draggable="true" ondragstart="drag(event)" id="drag5" width="450" height="420"></div>
+  <footer> &copy; 2025, Hana Sato. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</body>
+</html>
