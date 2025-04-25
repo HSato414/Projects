@@ -29,19 +29,28 @@ Header{
 Main{
 	background-color:rgba(43,36,36,1.00);
 }
+nav {
+    background-color:rgba(29,1,0,1.00);
+	position: fixed;
+	z-index:1;
+	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%;
+}
 .GLogo{
 	display:inline-block;
 	vertical-align: middle;
-	width:10%;
-	height:10%;
+	width:150px;
+	height:75px;
 	margin:0;
-	padding:20px 300px 30px 100px;
+	padding:10px 310px 10px 90px;
 	}
 	.Tabs{
-	padding:20px 0px 20px 150px;
+	background-color:rgba(29,1,0,1.00);
+	position:fixed;
+	padding:33px 0px 0px 150px;
     margin:0;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: bottom;
 	white-space: nowrap;
 	}
 .Home{
@@ -59,7 +68,6 @@ Main{
 }
 .Synopsis{
 	color:#FFF4D6;
-	display:inline-block;
 	font-family: "Bona Nova SC", serif;
   	font-weight: 700;
   	font-style: normal;
@@ -70,7 +78,6 @@ Main{
     background-color: rgba(227,161,39,1.00);
 	transition: .5s;
 	padding:10px;
-	scroll-behavior: smooth;
 	}
 .Trailer{
 	color:#FFF4D6;
@@ -171,11 +178,18 @@ footer {
   	font-weight: 400;
   	font-style: normal;
 	}
+
+@media (min-width:1300px){
+}
+
+@media (min-width:500px){
+}
 </style>
 </head>
 <body>
 <wrapper>
 <header>
+<nav>
 <img class="GLogo" src="SGLogo2.png">
 <div class="Tabs">
 <a href="#" class="Home">Home</a>
@@ -183,6 +197,7 @@ footer {
 <a href="#down2" class="Trailer">Trailer</a>
 <a href="https://open.spotify.com/playlist/2ArLhlWMgTh7R1ZT8aOBTw?si=lF8h1NykR2ORcJfDPJryuA" class="Soundtrack">Soundtrack</a>
 </div>
+</nav>
 <img src="GOTFImage.jpg" class="Banner"/>
 </header>
 <main>
