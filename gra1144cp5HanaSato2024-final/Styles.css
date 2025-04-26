@@ -5,18 +5,27 @@ body {
   	font-weight: 100;
   	font-style: normal;
 	color:#322016;
+	width:100%;
 }
 wrapper {
-    margin: auto;
-    width: 1400px;
+    margin: 0;
+    width: 100%;
     display: block;
 }
-nav {
-    border-bottom:solid;
-    border-bottom-width: thin;
-	border-bottom-color: #322016;
+nav{
+	margin-left:30px;
 }
-
+.homenav {
+	margin-bottom:-5px;
+}
+.homenavbkimg{
+	background-image:url("fkbkg2.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:1000px;
+	margin:0;
+}
 .fujiikazelogo {
     font-size: 45px;
 	font-weight: 100;
@@ -45,37 +54,19 @@ h1 {
     font-weight: 100;
 	text-align:center;
 	margin-top:50px;
+	margin-left:-30px;
 	
 }
 main {
     height: 700px;
+	margin-left:50px;
 }
-.fkbkg{
-	position:absolute;
-}
-.Homeheading{
-    position: relative;
-    text-align: center;
-	top:80px;
-	left:30px;
-    font-size: 150px;
-    color: white;
-	word-spacing:390px;
-}
-.Homeheading2{
-    position: relative;
-    text-align: center;
-    top:250px;
-    font-size: 120px;
-    color: white;
-    word-spacing: 30px;
-    text-shadow: 6px 0px 28px #252525;
-}
+
 .Viewinfo{
 	text-decoration: none;
 	position:relative;
     color: #322016;
-	top:200px;
+	top:750px;
     left: 45%;
     padding: 10px 20px;
     font-size: 24px;
@@ -91,7 +82,7 @@ main {
 .Vidtext{
 	color:#322016;
 	text-align:center;
-	margin-top:550px;
+	margin-top:200px;
 }
 .Mainvid{
 	margin-top:50px;
@@ -124,17 +115,16 @@ main {
 	margin-left:30px;
 }
 .TourHeading{
-	padding-top:60px;
+	padding-top:40px;
 	padding-bottom:50px;
-	border-top:solid;
-	border-top-width:thin;
-	border-top-color: #322016;
 	font-weight:100;
 	text-align:center;
 	font-size:30px;
 }
 .fktour{
 	position:absolute;
+	margin-left:-30px;
+	width:100%;
 }
 td {
     border: 0;
@@ -147,12 +137,12 @@ table {
     position: relative;
     text-align: center;
     margin:0;
+	margin-left:-30px;
     font-size: 17px;
     font-weight:bold;
     letter-spacing: 2px;
     border-style: none;
-    background-color: rgba(34,20,18,0.75);
-	padding: 90px 0px 50px 0px;
+	padding: 90px 0px 100px 0px;
 }
 .buytickets{
 	text-decoration: none;
