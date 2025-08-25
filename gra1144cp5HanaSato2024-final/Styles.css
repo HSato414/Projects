@@ -351,7 +351,7 @@ table {
 .media1{
 	display: block;
 	margin-top:80px;
-	margin-left: 19%;
+	margin-left: 20%;
 }
 
 .slideshow-container {
@@ -441,13 +441,13 @@ table {
   to {opacity: 1}
 }
 .contacttext{
-	margin-top:80px;
+	margin-top:50px;
 	font-size:14px;
 	text-align:center;
 }
 .ContactForm{
 	margin-top:30px;
-	margin-left:30%;
+	margin-left:31%;
 	padding:30px;
 	background-color:#322016;
 }
