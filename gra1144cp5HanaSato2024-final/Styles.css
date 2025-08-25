@@ -8,111 +8,142 @@ body {
 	width:100%;
 }
 wrapper {
-    margin: 0;
     width: 100%;
     display: block;
 }
 nav{
-	margin-left:30px;
+	text-align:center;
 }
 .homenav {
-	margin-bottom:-5px;
+	
 }
-.homenavbkimg{
-	background-image:url("fkbkg2.png");
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center;
+.homebanner{
+	width:100%;
 	height:1000px;
-	margin:0;
+	background-image: url(
+"fkbkg2.png");
+/* Make image center */
+ background-position: center;
+background-size: cover;
 }
+
 .fujiikazelogo {
-    font-size: 45px;
+    font-size: 40px;
 	font-weight: 100;
     display: inline-block;
     color: #322016;	
-	margin-left: 30px;
-	margin-right:400px;
+	margin-left: 0px;
+	margin-right:300px;
 }
 
 ul {
     padding: 0;
-	text-align:left;
+	margin-right:40px;
+	display:inline-block;
 }
-ul a li   {
+ul a li {
     display: inline-block;
     padding: 20px 20px;
     color: #322016;
+	margin-left:10px;
+	margin-right:10px;
+	vertical-align:middle;
+	border-bottom:solid;
+	border-bottom-color: #FFFFFF;
 }
 ul a li:hover {
     background-color: #EEE0D5;
+	padding: 20px 20px;
 	border-bottom:solid;
 	border-bottom-color: #322016;
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 }
 h1 {
     font-weight: 100;
 	text-align:center;
 	margin-top:50px;
-	margin-left:-30px;
+	margin-left:-20px;
 	
 }
 main {
-    height: 700px;
-	margin-left:50px;
+    height: 100%;
 }
 
 .Viewinfo{
 	text-decoration: none;
-	position:relative;
+	position:absolute;
+	left:45%;
+	top:930px;
     color: #322016;
-	top:750px;
-    left: 45%;
     padding: 10px 20px;
+	text-align:center;
     font-size: 24px;
     border: 2px solid #EEE0D5;
 	background-color:#EEE0D5;
     border-radius: 50px;
 }
 .Viewinfo:hover{
-	color:white;
-	border-color:white;
+	border-color:#322016;
+	background-color:#322016;
+    color: #EEE0D5;
+	transition-duration: 0.2s;
 	
 }
+
 .Vidtext{
 	color:#322016;
 	text-align:center;
-	margin-top:200px;
+	margin-top:10%;
 }
 .Mainvid{
-	margin-top:50px;
-	margin-left:25%;
+	margin-top:5%;
+	margin-left:26%;
 	display:block;
 }
+
 .facebook{
-	width:40px;
+	width:35px;
 	margin-top:200px;
-	margin-left:38%;
+}
+.facebook:hover{
+	opacity:85%;
+	transition-duration: 0.2s;
 }
 .twitter{
-	width:40px;
+	width:35px;
 	margin-top:200px;
 	margin-left:30px;
+}
+.twitter:hover{
+	opacity:80%;
+	transition-duration: 0.2s;
 }
 .instagram{
-	width:40px;
+	width:35px;
 	margin-top:200px;
 	margin-left:30px;
+}
+.instagram:hover{
+	opacity:80%;
+	transition-duration: 0.2s;
 }
 .youtube{
-	width:40px;
+	width:35px;
 	margin-top:200px;
 	margin-left:30px;
 }
+.youtube:hover{
+	opacity:80%;
+	transition-duration: 0.2s;
+}
 .spotify{
-	width:40px;
+	width:35px;
 	margin-top:200px;
 	margin-left:30px;
+}
+.spotify:hover{
+	opacity:80%;
+	transition-duration: 0.2s;
 }
 .TourHeading{
 	padding-top:40px;
@@ -122,9 +153,12 @@ main {
 	font-size:30px;
 }
 .fktour{
-	position:absolute;
-	margin-left:-30px;
 	width:100%;
+	background-image: url(
+"FKTour.png");
+/* Make image center */
+ background-position: center;
+background-size: cover;
 }
 td {
     border: 0;
@@ -156,23 +190,28 @@ table {
 .buytickets:hover{
 	background-color:#EEE0D5;
 	color:#322016;
-
+	transition-duration: 0.2s;
 }
 .toursocialmedia{
 	margin-top:100px;
 }
+.newsh1{
+	margin-bottom:7%;
+}
 .News1{
 	display:inline-block;
-	margin-left:70px;
-	margin-bottom:100px;
+	margin-left:7%;
+	margin-bottom:10%;
+	cursor:pointer;
 }
-.News1img{
-	margin:80px 0px 0px 0px;
+.News1img:hover{
+  	opacity:80%;
+	transition-duration: 0.2s
 }
 .News1text{
     font-size: 14px;
     text-align: center;
-	margin-right:20px;
+	margin-right:2%;
 }
 .Readmore1{
 	text-decoration: none;
@@ -187,14 +226,21 @@ table {
     border-radius: 50px;
 }
 .Readmore1:hover{
-	color:white;
+	border-color:#322016;
+	background-color:#322016;
+    color: #EEE0D5;
+	transition-duration: 0.2s;
 }
 .News2{
 	display:inline-block;
-	
+	vertical-align:top;
+	margin-left:3%;
+	cursor:pointer;
+	margin-bottom:10%;
 }
-.News2img{
-	margin:0px 0px 18px 27px;
+.News2img:hover {
+ 	opacity:80%;
+	transition-duration: 0.2s;
 }
 .News2text{
     font-size: 14px;
@@ -202,13 +248,21 @@ table {
 }
 .News3{
 	display:inline-block;
+	margin-left:3%;
+	vertical-align:top;
+	cursor:pointer;
+	margin-bottom:10%;
 }
-.News3img{
-	margin:0px 0px 18px 27px;
+.News3img:hover{
+	opacity:80%;
+	transition-duration: 0.2s
 }
 .News3text{
     font-size: 14px;
     text-align: center;
+}
+.albumgroup{
+	margin-left:43px;
 }
 .bestofalbum{
 	margin-top:50px;
@@ -292,15 +346,12 @@ table {
 	font-size:15px;
 	
 }
-.musicsocialmedia{
-	display:block;
-	padding-top:50px;
-}
 .media1{
 	display: block;
 	margin-top:80px;
-	margin-left: 18%;
+	margin-left: 19%;
 }
+
 .slideshow-container {
   max-width: 800px;
   padding-top:150px;
@@ -324,7 +375,7 @@ table {
   color: #EEE0D5;
   font-weight: bold;
   font-size: 30px;
-  transition: 0.6s ease;
+  transition: 0.3s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
   background-color: rgba(50,32,22,0.59);
@@ -398,6 +449,9 @@ table {
 	padding:30px;
 	background-color:#322016;
 }
+.merchgroup{
+	margin-left:4%;
+}
 .merchtext{
 	text-decoration:line-through;
 }
@@ -407,11 +461,17 @@ table {
 	margin-top:50px;
 	color:#322016;
 }
+.store1:hover{
+   opacity:80%;
+}
 .store2{
 	display:inline-block;
 	margin-left:80px;
 	margin-top:50px;
 	color:#322016;
+}
+.store2:hover{
+   opacity:80%;
 }
 .store3{
 	display:inline-block;
@@ -419,11 +479,17 @@ table {
 	margin-top:50px;
 	color:#322016;
 }
+.store3:hover{
+   opacity:80%;
+}
 .store4{
 	display:inline-block;
 	margin-left:160px;
 	margin-top:50px;
 	color:#322016;
+}
+.store4:hover{
+   opacity:80%;
 }
 .store5{
 	display:inline-block;
@@ -431,11 +497,17 @@ table {
 	margin-top:50px;
 	color:#322016;
 }
+.store5:hover{
+   opacity:80%;
+}
 .store6{
 	display:inline-block;
 	margin-left:80px;
 	margin-top:50px;
 	color:#322016;
+}
+.store6:hover{
+   opacity:75%;
 }
 .loadmore{
 	text-decoration: none;
@@ -443,11 +515,19 @@ table {
 	background-color:#EEE0D5;
     color: #322016;
 	margin-top:50px;
-	margin-left:44%;
+	margin-left:43%;
     padding: 10px 40px;
     font-size: 16px;
-    border: 2px solid #322016;
+    border: 2px solid #EEE0D5;
     border-radius: 50px;
+	text-align: center;
+	cursor:pointer;
+}
+.loadmore:hover{
+	background-color:#322016;
+    color: #EEE0D5;
+	border-color:#322016;
+	transition-duration: 0.2s;
 }
 .privacytext{
 	margin:80px 300px;
@@ -461,32 +541,169 @@ footer{
     padding: 30px 50px;
     color: #EEE0D5;
 	font-size:12px;
+	margin-top:2%;
 }
 .homefooter {
-	margin-top:50px;
     color: #EEE0D5;
 }
 .newsfooter {
-	margin-top:140px;
     color: #EEE0D5;
 }
 .musicfooter {
-	margin-top:510px;
     color: #EEE0D5;
 }
 .tourfooter{
-	margin-top:30px;
     color: #EEE0D5;
 }
 .mediafooter{
-	margin-top:920px;
+
 }
 .contactfooter{
-	margin-top:480px;
+
 }
 .storefooter{
-	margin-top:680px;
+
 }
 .privacyfooter{
-	margin-top:240px;
+
+}
+@media (max-width:800px){
+.homebanner{
+	min-width:400px;
+}
+	.fujiikazelogo {
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 30px;
+    text-align: left;
+	width:100%;
+}
+		.Mainvid{
+	width:70%;
+		margin:auto;
+		padding-top:20px;
+		max-height:200px;
+}
+		.media1{
+	width:80%;
+		margin:auto;
+			max-height:300px;
+}
+	.socialmediaicons{
+		width:100%;
+		margin:auto;
+	}
+	.facebook{
+		margin-left:-10%;
+	}
+.privacytab{
+	display:none;
+	}
+	.storetab{
+		display:none;
+	}
+	.contacttab{
+		display:none;
+	}
+	.mediatab{
+		display:none;
+	}
+	.tourtab{
+		display:none;
+	}
+	.musictab{
+		display:none;
+	}
+	.newstab{
+		display:none;
+	}
+
+}
+@media (max-width:1300px){
+.homebanner{
+min-width:900px;
+}
+	.Mainvid{
+	width:70%;
+		margin:auto;
+		padding-top:20px;
+}
+	.media1{
+	width:80%;
+		margin:auto;
+}
+	.fujiikazelogo {
+    font-size: 30px;
+		padding-right:0px;
+		padding-left:30px;
+		width:100%;
+		text-align:left;
+}
+	.privacytext{
+	margin:80px auto;
+	padding:0px 100px;
+}
+.socialmediaicons{
+	margin:auto;
+}
+.privacytab{
+	display:none;
+	}
+	.storetab{
+		display:none;
+	}
+	.contacttab{
+		display:none;
+	}
+	.mediatab{
+		display:none;
+	}
+	.tourtab{
+		display:none;
+	}
+	.musictab{
+		display:none;
+	}
+	.newstab{
+		display:none;
+	}
+	.news1{
+		width:50%;
+	}
+}
+.socialmediaicons{
+	margin-left:20%;
+}
+@media (max-width:1500px){
+.homebanner{
+min-width:500px;
+}
+	.fujiikazelogo {
+    font-size: 30px;	
+	padding-right: 600px;
+}
+.privacytab{
+	display:none;
+	}
+	.storetab{
+		display:none;
+	}
+	.contacttab{
+		display:none;
+	}
+	.mediatab{
+		display:none;
+	}
+	.tourtab{
+		display:none;
+	}
+	.musictab{
+		display:none;
+	}
+	.newstab{
+		display:none;
+	}
+}
+.socialmediaicons{
+	margin-left:39%;
 }
