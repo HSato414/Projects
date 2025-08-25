@@ -13,6 +13,8 @@ wrapper {
 }
 nav{
 	text-align:center;
+	margin-top:-20px;
+	margin-bottom:-10px;
 }
 .homenav {
 	
@@ -106,7 +108,7 @@ main {
 	margin-top:200px;
 }
 .facebook:hover{
-	opacity:85%;
+	opacity:80%;
 	transition-duration: 0.2s;
 }
 .twitter{
